@@ -672,3 +672,76 @@ background-color: #42b995;
 }
 
 
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .logo {
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* SERVICES */
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* TEAM */
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* SOCIAL */
+    .social {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+
